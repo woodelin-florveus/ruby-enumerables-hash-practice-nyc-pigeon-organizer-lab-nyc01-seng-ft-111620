@@ -8,7 +8,7 @@ data.each_with_object({}) do |(key, value), final_arr|
     names.each do |name|
       binding.pry
       if !final_arr[name]
-        final_arr = {}
+        final_arr[name] = {}
       end
     end
   end
