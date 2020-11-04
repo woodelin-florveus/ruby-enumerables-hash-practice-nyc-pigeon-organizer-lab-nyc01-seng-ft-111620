@@ -7,5 +7,4 @@ data.each_with_object({}) do |key, value, final_arr|
     binding.pry
   end
 end
-final_arr
 end
