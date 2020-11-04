@@ -10,6 +10,9 @@ data.each_with_object({}) do |(key, value), final_arr|
       if !final_arr[name]
         final_arr[name] = {}
       end
+      if !final_arr[name][key]
+        !final_arr[name][key] = []
+      end
     end
   end
   final_arr
