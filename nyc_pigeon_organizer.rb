@@ -17,7 +17,7 @@ final_result = data.each_with_object({}) do |(key, value), final_arr|
         final_arr[name][key].push(inner_key)
     end
   end
-  final_arr
+  # final_arr
 end
 binding.pry
 end
